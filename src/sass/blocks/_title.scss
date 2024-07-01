@@ -1,0 +1,36 @@
+.title {
+  display: inline-flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 28px;
+  .arrow {
+    display: inline-flex;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background-color: var(--white);
+    border-radius: 100%;
+    box-shadow: var(--lightGray) 0px 0px 2px 0px;
+    &::before {
+      position: absolute;
+      content: '';
+      top: 15px;
+      right: 9px;
+      width: 14px;
+      height: 2px;
+      background-color: gray;
+    }
+    &::after {
+      position: absolute;
+      content: '';
+      width: 8px;
+      height: 8px;
+      top: 12px;
+      right: 9px;
+      border-top: 2px solid gray;
+      border-right: 2px solid gray;
+      transform: rotate(45deg);
+    }
+  }
+}

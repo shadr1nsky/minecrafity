@@ -1,0 +1,29 @@
+.footer {
+  &__wrapper {
+    margin-top: 50px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__name, &__mail {
+    color: var(--lightGray) !important;
+    display: flex;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+  }
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &__link {
+    height: 44px;
+    width: 44px;
+    &_icon {
+      height: 100%;
+      width: 100%;
+      fill: var(--black);
+    }
+  }
+}

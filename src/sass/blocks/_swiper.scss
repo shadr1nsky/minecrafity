@@ -1,0 +1,47 @@
+.swiper {
+  position: relative;
+  &-pagination-bullet {
+    width: 20px !important;
+    height: 4px !important;
+    border-radius: 2px;
+    &-active {
+      background-color: var(--activeColor);
+    }
+  }
+  &-button {
+    &-next, &-prev {
+      display: inline-flex;
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+      background-color: var(--white);
+      border-radius: 100%;
+      box-shadow: var(--lightGray) 0px 0px 2px 0px;
+      &::after {
+        position: absolute;
+        content: '';
+        width: 11px;
+        height: 11px;
+        top: 11px;
+        transform: rotate(45deg);
+      }
+    }
+    &-next {
+      &:after {
+        left: 9px;
+        border-top: 2px solid gray;
+        border-right: 2px solid gray;
+      }
+    }
+    &-prev {
+      &:after {
+        right: 9px;
+        border-bottom: 2px solid gray;
+        border-left: 2px solid gray;
+      }
+    }
+    &-disabled {
+      display: none;
+    }
+  }
+}

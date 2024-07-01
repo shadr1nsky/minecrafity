@@ -1,0 +1,111 @@
+.popular-min {
+  &__wrapper {
+    padding-top: 50px;
+  }
+  &__top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 24px;
+  }
+  &__title {
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0;
+  }
+  &__all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_text {
+      padding-right: 10px;
+    }
+    &_arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      height: 20px;
+      width: 20px;
+      &:before {
+        position: absolute;
+        content: "";
+        height: 8px;
+        width: 8px;
+        border-top: 2px solid var(--activeColor);
+        border-right: 2px solid var(--activeColor);
+        transform: rotate(45deg);
+      }
+    }
+  }
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 178px);
+    gap: 12px;
+    justify-content: center;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    width: 178px;
+    height: 280px;
+    padding: 20px;
+    background-color: var(--grayBg);
+    border: 1px solid var(--whiteGray);
+    border-radius: 12px;
+    &:hover {
+      border-color: var(--lightGray);
+    }
+    &_icon {
+      height: 140px;
+      width: 138px;
+    }
+      img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+    &_title {
+      padding-top: 16px;
+      font-size: 16px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+
+    }
+    &_author {
+      font-size: 14px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      color: #999;
+    }
+    &_details {
+      margin-top: 16px;
+      padding-left: 24px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 12px;
+      background: no-repeat url("../icons/download.svg") left;
+      background-size: contain;
+      &-download {
+        font-size: 14px;
+        position: relative;
+      }
+      &-category {
+        display: inline-block;
+        font-size: 13px;
+        padding-inline: 4px;
+        border-radius: 2px;
+        border: 1px solid var(--lightGray);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        &:hover {
+          border: 1px solid var(--gray);
+        }
+      }
+    }
+  }
+}
