@@ -2,8 +2,8 @@
   &__items {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
-    justify-content: center;
     gap: 20px;
+    width: 100%;
   }
   &__item {
     display: flex;
