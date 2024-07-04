@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "gulp",
-    "deploy": "gh-pages -d dist"
+    "gh-page": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
