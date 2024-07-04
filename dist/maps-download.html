@@ -120,197 +120,166 @@
                     <div class="maps-item__leftblock">
                         <div class="maps-item__wrapper">
                             <div class="maps-item__download">
-                                <h2 class="maps-item__download_title">Скачать ToolBelt</h2>
+                                <h2 class="maps-item__download_title">Скачать OneBlock</h2>
                                 <div class="maps-item__download_versions">
                                     <div class="maps-item__download_versions-filters">
+                                        <div class="maps-item__download_versions-filter" id="type">Тип</div>
                                         <div class="maps-item__download_versions-filter" id="name">Имя</div>
-                                        <div class="maps-item__download_versions-filter" id="version">Версия</div>
                                         <div class="maps-item__download_versions-filter" id="loaded">Загружено</div>
                                         <div class="maps-item__download_versions-filter" id="size">Размер</div>
+                                        <div class="maps-item__download_versions-filter" id="version">Версия</div>
+                                        <div class="maps-item__download_versions-filter" id="loader">Загрузчик</div>
+                                        <div class="maps-item__download_versions-filter" id="downloads">Загрузки</div>
                                         <div class="maps-item__download_versions-filter" id="download">Скачать</div>
                                     </div>
+                                    <hr>
                                     <ul class="maps-item__download_versions-list">
                                         <li class="maps-item__download_versions-list-item">
-                                            <div class="maps-item__download_versions-list-title">
-                                                <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
-                                                <div class="maps-item__download_versions-list-version">1.20.4</div>
-                                                <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
-                                                <div class="maps-item__download_versions-list-size">22.93КБ</div>
-                                                <a href="#" class="maps-item__download_versions-list-download">
-                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
-                                                    </svg>
-                                                </a>
-                                            </div>
-                                            <div class="maps-item__download_versions-list-component">
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Library (Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Teams (Forge)</a>
-                                            </div>
+                                            <div class="maps-item__download_versions-list-type beta"></div>
+                                            <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                            <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
+                                            <div class="maps-item__download_versions-list-size">22.93КБ</div>
+                                            <div class="maps-item__download_versions-list-version">1.20.4</div>
+                                            <div class="maps-item__download_versions-list-loader">Forge</div>
+                                            <div class="maps-item__download_versions-list-downloads">2.4M</div>
+                                            <a href="#" class="maps-item__download_versions-list-download">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                </svg>
+                                            </a>
                                         </li>
                                         <li class="maps-item__download_versions-list-item">
-                                            <div class="maps-item__download_versions-list-title">
-                                                <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
-                                                <div class="maps-item__download_versions-list-version">1.20.4</div>
-                                                <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
-                                                <div class="maps-item__download_versions-list-size">22.93КБ</div>
-                                                <a href="#" class="maps-item__download_versions-list-download">
-                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
-                                                    </svg>
-                                                </a>
-                                            </div>
-                                            <div class="maps-item__download_versions-list-component">
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Library (Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Teams (Forge)</a>
-                                            </div>
+                                            <div class="maps-item__download_versions-list-type release"></div>
+                                            <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                            <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
+                                            <div class="maps-item__download_versions-list-size">22.93КБ</div>
+                                            <div class="maps-item__download_versions-list-version">1.20.4</div>
+                                            <div class="maps-item__download_versions-list-loader">Forge</div>
+                                            <div class="maps-item__download_versions-list-downloads">2.4M</div>
+                                            <a href="#" class="maps-item__download_versions-list-download">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                </svg>
+                                            </a>
                                         </li>
                                         <li class="maps-item__download_versions-list-item">
-                                            <div class="maps-item__download_versions-list-title">
-                                                <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
-                                                <div class="maps-item__download_versions-list-version">1.20.4</div>
-                                                <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
-                                                <div class="maps-item__download_versions-list-size">22.93КБ</div>
-                                                <a href="#" class="maps-item__download_versions-list-download">
-                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
-                                                    </svg>
-                                                </a>
-                                            </div>
-                                            <div class="maps-item__download_versions-list-component">
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Library (Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Teams (Forge)</a>
-                                            </div>
+                                            <div class="maps-item__download_versions-list-type release"></div>
+                                            <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                            <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
+                                            <div class="maps-item__download_versions-list-size">22.93КБ</div>
+                                            <div class="maps-item__download_versions-list-version">1.20.4</div>
+                                            <div class="maps-item__download_versions-list-loader">Forge</div>
+                                            <div class="maps-item__download_versions-list-downloads">2.4M</div>
+                                            <a href="#" class="maps-item__download_versions-list-download">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                </svg>
+                                            </a>
                                         </li>
                                         <li class="maps-item__download_versions-list-item">
-                                            <div class="maps-item__download_versions-list-title">
-                                                <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
-                                                <div class="maps-item__download_versions-list-version">1.20.4</div>
-                                                <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
-                                                <div class="maps-item__download_versions-list-size">22.93КБ</div>
-                                                <a href="#" class="maps-item__download_versions-list-download">
-                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
-                                                    </svg>
-                                                </a>
-                                            </div>
-                                            <div class="maps-item__download_versions-list-component">
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Library (Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Teams (Forge)</a>
-                                            </div>
+                                            <div class="maps-item__download_versions-list-type release"></div>
+                                            <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                            <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
+                                            <div class="maps-item__download_versions-list-size">22.93КБ</div>
+                                            <div class="maps-item__download_versions-list-version">1.20.4</div>
+                                            <div class="maps-item__download_versions-list-loader">Forge</div>
+                                            <div class="maps-item__download_versions-list-downloads">2.4M</div>
+                                            <a href="#" class="maps-item__download_versions-list-download">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                </svg>
+                                            </a>
                                         </li>
                                         <li class="maps-item__download_versions-list-item">
-                                            <div class="maps-item__download_versions-list-title">
-                                                <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
-                                                <div class="maps-item__download_versions-list-version">1.20.4</div>
-                                                <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
-                                                <div class="maps-item__download_versions-list-size">22.93КБ</div>
-                                                <a href="#" class="maps-item__download_versions-list-download">
-                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
-                                                    </svg>
-                                                </a>
-                                            </div>
-                                            <div class="maps-item__download_versions-list-component">
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Library (Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Teams (Forge)</a>
-                                            </div>
+                                            <div class="maps-item__download_versions-list-type release"></div>
+                                            <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                            <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
+                                            <div class="maps-item__download_versions-list-size">22.93КБ</div>
+                                            <div class="maps-item__download_versions-list-version">1.20.4</div>
+                                            <div class="maps-item__download_versions-list-loader">Forge</div>
+                                            <div class="maps-item__download_versions-list-downloads">2.4M</div>
+                                            <a href="#" class="maps-item__download_versions-list-download">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                </svg>
+                                            </a>
                                         </li>
                                         <li class="maps-item__download_versions-list-item">
-                                            <div class="maps-item__download_versions-list-title">
-                                                <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
-                                                <div class="maps-item__download_versions-list-version">1.20.4</div>
-                                                <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
-                                                <div class="maps-item__download_versions-list-size">22.93КБ</div>
-                                                <a href="#" class="maps-item__download_versions-list-download">
-                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
-                                                    </svg>
-                                                </a>
-                                            </div>
-                                            <div class="maps-item__download_versions-list-component">
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Library (Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Teams (Forge)</a>
-                                            </div>
+                                            <div class="maps-item__download_versions-list-type release"></div>
+                                            <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                            <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
+                                            <div class="maps-item__download_versions-list-size">22.93КБ</div>
+                                            <div class="maps-item__download_versions-list-version">1.20.4</div>
+                                            <div class="maps-item__download_versions-list-loader">Forge</div>
+                                            <div class="maps-item__download_versions-list-downloads">2.4M</div>
+                                            <a href="#" class="maps-item__download_versions-list-download">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                </svg>
+                                            </a>
                                         </li>
                                         <li class="maps-item__download_versions-list-item">
-                                            <div class="maps-item__download_versions-list-title">
-                                                <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
-                                                <div class="maps-item__download_versions-list-version">1.20.4</div>
-                                                <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
-                                                <div class="maps-item__download_versions-list-size">22.93КБ</div>
-                                                <a href="#" class="maps-item__download_versions-list-download">
-                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
-                                                    </svg>
-                                                </a>
-                                            </div>
-                                            <div class="maps-item__download_versions-list-component">
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Library (Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Teams (Forge)</a>
-                                            </div>
+                                            <div class="maps-item__download_versions-list-type release"></div>
+                                            <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                            <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
+                                            <div class="maps-item__download_versions-list-size">22.93КБ</div>
+                                            <div class="maps-item__download_versions-list-version">1.20.4</div>
+                                            <div class="maps-item__download_versions-list-loader">Forge</div>
+                                            <div class="maps-item__download_versions-list-downloads">2.4M</div>
+                                            <a href="#" class="maps-item__download_versions-list-download">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                </svg>
+                                            </a>
                                         </li>
                                         <li class="maps-item__download_versions-list-item">
-                                            <div class="maps-item__download_versions-list-title">
-                                                <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
-                                                <div class="maps-item__download_versions-list-version">1.20.4</div>
-                                                <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
-                                                <div class="maps-item__download_versions-list-size">22.93КБ</div>
-                                                <a href="#" class="maps-item__download_versions-list-download">
-                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
-                                                    </svg>
-                                                </a>
-                                            </div>
-                                            <div class="maps-item__download_versions-list-component">
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Library (Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Teams (Forge)</a>
-                                            </div>
+                                            <div class="maps-item__download_versions-list-type release"></div>
+                                            <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                            <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
+                                            <div class="maps-item__download_versions-list-size">22.93КБ</div>
+                                            <div class="maps-item__download_versions-list-version">1.20.4</div>
+                                            <div class="maps-item__download_versions-list-loader">Forge</div>
+                                            <div class="maps-item__download_versions-list-downloads">2.4M</div>
+                                            <a href="#" class="maps-item__download_versions-list-download">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                </svg>
+                                            </a>
                                         </li>
                                         <li class="maps-item__download_versions-list-item">
-                                            <div class="maps-item__download_versions-list-title">
-                                                <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
-                                                <div class="maps-item__download_versions-list-version">1.20.4</div>
-                                                <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
-                                                <div class="maps-item__download_versions-list-size">22.93КБ</div>
-                                                <a href="#" class="maps-item__download_versions-list-download">
-                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
-                                                    </svg>
-                                                </a>
-                                            </div>
-                                            <div class="maps-item__download_versions-list-component">
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Library (Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Teams (Forge)</a>
-                                            </div>
+                                            <div class="maps-item__download_versions-list-type release"></div>
+                                            <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                            <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
+                                            <div class="maps-item__download_versions-list-size">22.93КБ</div>
+                                            <div class="maps-item__download_versions-list-version">1.20.4</div>
+                                            <div class="maps-item__download_versions-list-loader">Forge</div>
+                                            <div class="maps-item__download_versions-list-downloads">2.4M</div>
+                                            <a href="#" class="maps-item__download_versions-list-download">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                </svg>
+                                            </a>
                                         </li>
                                         <li class="maps-item__download_versions-list-item">
-                                            <div class="maps-item__download_versions-list-title">
-                                                <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
-                                                <div class="maps-item__download_versions-list-version">1.20.4</div>
-                                                <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
-                                                <div class="maps-item__download_versions-list-size">22.93КБ</div>
-                                                <a href="#" class="maps-item__download_versions-list-download">
-                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
-                                                    </svg>
-                                                </a>
-                                            </div>
-                                            <div class="maps-item__download_versions-list-component">
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Library (Forge)</a>
-                                                <a href="maps-item.html" class="maps-item__download_versions-list-component-link">FTB Teams (Forge)</a>
-                                            </div>
+                                            <div class="maps-item__download_versions-list-type release"></div>
+                                            <a href="maps-file.html" class="maps-item__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                            <div class="maps-item__download_versions-list-loaded">21.01.2024</div>
+                                            <div class="maps-item__download_versions-list-size">22.93КБ</div>
+                                            <div class="maps-item__download_versions-list-version">1.20.4</div>
+                                            <div class="maps-item__download_versions-list-loader">Forge</div>
+                                            <div class="maps-item__download_versions-list-downloads">2.4M</div>
+                                            <a href="#" class="maps-item__download_versions-list-download">
+                                                <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                </svg>
+                                            </a>
                                         </li>
                                     </ul>
+                                </div>
+                                <div class="maps-item__pagination">
+                                    <a href="maps-download.html" class="maps-item__pagination_button prev disabled"></a>
+                                    <div class="maps-item__pagination_page"><span class="maps-item__pagination_page-current">1</span> из <span class="maps-item__pagination_page-all">10</span> страниц</div>
+                                    <a href="#" class="maps-item__pagination_button next"></a>
                                 </div>
                             </div>
                         </div>
