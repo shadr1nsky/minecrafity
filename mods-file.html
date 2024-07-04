@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraftify</title>
+    <meta name="title" content="Minecraftity">
+    <meta name="description" content="Карты можно выбрать на любой вкус: карты городов, хоррор, прохождения, разные интересные миры и много другого.">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+<body>
+    <header class="navbar">
+    <div class="menu">
+        <div class="menu__wrapper">
+            <div class="menu__top">
+                <div class="menu__logo">
+                    <svg viewBox="0 0 179 25" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.17188 24L3.82812 4.54688H3.65625C3.85417 6.04688 3.95312 7.42188 3.95312 8.67188V24H0.015625V1.15625H6.54688L10.4531 19.1094H10.5781L14.4531 1.15625H21.0781V24H17.0469V8.51562C17.0469 7.23438 17.1198 5.92188 17.2656 4.57812H17.1406L12.8125 24H8.17188ZM25.875 24V1.15625H29.875V24H25.875ZM50.7031 24H45.5156L38.4531 7.45312H38.25C38.5104 8.71354 38.6406 10.0677 38.6406 11.5156V24H34.7031V1.15625H39.9219L46.9219 17.5312H47.0938C46.8958 16.4375 46.7969 15.1354 46.7969 13.625V1.15625H50.7031V24ZM65.0312 24H54.7344V1.15625H65.0312V4.82812H58.9844V10.2656H64.5938V13.9531H58.9844V20.2812H65.0312V24ZM75.9375 4.54688C74.7188 4.54688 73.7552 5.26042 73.0469 6.6875C72.349 8.11458 72 10.099 72 12.6406C72 17.9323 73.3802 20.5781 76.1406 20.5781C77.349 20.5781 78.6146 20.1927 79.9375 19.4219V23.2031C78.8229 23.9427 77.3958 24.3125 75.6562 24.3125C73.0833 24.3125 71.1042 23.2917 69.7188 21.25C68.3438 19.1979 67.6562 16.3177 67.6562 12.6094C67.6562 8.90104 68.3646 6.01042 69.7812 3.9375C71.2083 1.86458 73.1875 0.828125 75.7188 0.828125C76.5521 0.828125 77.349 0.942708 78.1094 1.17188C78.8802 1.40104 79.7031 1.80208 80.5781 2.375L79.1719 5.82812C78.7031 5.50521 78.2031 5.21354 77.6719 4.95312C77.1406 4.68229 76.5625 4.54688 75.9375 4.54688ZM87.4219 15.1094V24H83.1719V1.15625H88.7344C91.0885 1.15625 92.8229 1.71354 93.9375 2.82812C95.0625 3.94271 95.625 5.64583 95.625 7.9375C95.625 10.8229 94.651 12.8385 92.7031 13.9844L97.0938 24H92.5469L88.9375 15.1094H87.4219ZM87.4219 11.4531H88.5156C89.5156 11.4531 90.2344 11.1719 90.6719 10.6094C91.1094 10.0365 91.3281 9.1875 91.3281 8.0625C91.3281 6.89583 91.0938 6.06771 90.625 5.57812C90.1667 5.07812 89.4531 4.82812 88.4844 4.82812H87.4219V11.4531ZM109.984 24L108.672 18.2344H102.719L101.406 24H97.1562L102.812 1.0625H108.578L114.25 24H109.984ZM107.875 14.4688L106.656 9.15625C106.583 8.83333 106.417 8.02604 106.156 6.73438C105.906 5.43229 105.755 4.5625 105.703 4.125C105.568 5.02083 105.396 6.01042 105.188 7.09375C104.979 8.16667 104.438 10.625 103.562 14.4688H107.875ZM120.484 24H116.266V1.15625H126.5V4.82812H120.484V11.1719H126.094V14.8438H120.484V24ZM136.375 24H132.141V4.89062H127.766V1.15625H140.75V4.89062H136.375V24ZM143.969 24V1.15625H147.969V24H143.969ZM157.016 24H152.797V1.15625H163.031V4.82812H157.016V11.1719H162.625V14.8438H157.016V24ZM171.391 10.1719L174.438 1.15625H178.891L173.469 14.8438V24H169.281V15.0156L163.875 1.15625H168.359L171.391 10.1719Z"/>
+                    </svg>
+                </div>
+                <div class="menu__close">
+                    <svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs>
+                            <clipPath id="clip3340_3629">
+                                <rect id="Basic / Close_L" rx="0.750000" width="22.500000" height="22.500000" transform="translate(3.750000 3.750000)" fill="white" fill-opacity="0"/>
+                            </clipPath>
+                            <clipPath id="clip3340_3628">
+                                <rect id="Frame 23" rx="7.829545" width="29.659090" height="29.659090" transform="translate(0.170455 0.170455)" fill="white" fill-opacity="0"/>
+                            </clipPath>
+                        </defs>
+                        <rect id="Frame 23" rx="7.829545" width="29.659090" height="29.659090" transform="translate(0.170455 0.170455)" fill="#FFFFFF" fill-opacity="1.000000"/>
+                        <g clip-path="url(#clip3340_3628)">
+                            <g clip-path="url(#clip3340_3629)">
+                                <path id="Vector" d="M21 21L9 9" stroke="#212121" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+                                <path id="Vector" d="M21 9L9 21" stroke="#212121" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <ul class="menu__list">
+                <li class="menu__list_item">
+                    <div class="menu__list_item_icon">
+
+                    </div>
+                    <a class="menu__list_item_link" href="index.html">Главная</a>
+                </li>
+                <li class="menu__list_item">
+                    <div class="menu__list_item_icon">
+
+                    </div>
+                    <a class="menu__list_item_link" href="mods.html">Моды</a>
+                </li>
+                <li class="menu__list_item">
+                    <div class="menu__list_item_icon">
+
+                    </div>
+                    <a class="menu__list_item_link" href="maps.html">Карты</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="navbar__wrapper">
+            <a href="index.html" class="navbar__logo">
+                <svg viewBox="0 0 179 25" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.17188 24L3.82812 4.54688H3.65625C3.85417 6.04688 3.95312 7.42188 3.95312 8.67188V24H0.015625V1.15625H6.54688L10.4531 19.1094H10.5781L14.4531 1.15625H21.0781V24H17.0469V8.51562C17.0469 7.23438 17.1198 5.92188 17.2656 4.57812H17.1406L12.8125 24H8.17188ZM25.875 24V1.15625H29.875V24H25.875ZM50.7031 24H45.5156L38.4531 7.45312H38.25C38.5104 8.71354 38.6406 10.0677 38.6406 11.5156V24H34.7031V1.15625H39.9219L46.9219 17.5312H47.0938C46.8958 16.4375 46.7969 15.1354 46.7969 13.625V1.15625H50.7031V24ZM65.0312 24H54.7344V1.15625H65.0312V4.82812H58.9844V10.2656H64.5938V13.9531H58.9844V20.2812H65.0312V24ZM75.9375 4.54688C74.7188 4.54688 73.7552 5.26042 73.0469 6.6875C72.349 8.11458 72 10.099 72 12.6406C72 17.9323 73.3802 20.5781 76.1406 20.5781C77.349 20.5781 78.6146 20.1927 79.9375 19.4219V23.2031C78.8229 23.9427 77.3958 24.3125 75.6562 24.3125C73.0833 24.3125 71.1042 23.2917 69.7188 21.25C68.3438 19.1979 67.6562 16.3177 67.6562 12.6094C67.6562 8.90104 68.3646 6.01042 69.7812 3.9375C71.2083 1.86458 73.1875 0.828125 75.7188 0.828125C76.5521 0.828125 77.349 0.942708 78.1094 1.17188C78.8802 1.40104 79.7031 1.80208 80.5781 2.375L79.1719 5.82812C78.7031 5.50521 78.2031 5.21354 77.6719 4.95312C77.1406 4.68229 76.5625 4.54688 75.9375 4.54688ZM87.4219 15.1094V24H83.1719V1.15625H88.7344C91.0885 1.15625 92.8229 1.71354 93.9375 2.82812C95.0625 3.94271 95.625 5.64583 95.625 7.9375C95.625 10.8229 94.651 12.8385 92.7031 13.9844L97.0938 24H92.5469L88.9375 15.1094H87.4219ZM87.4219 11.4531H88.5156C89.5156 11.4531 90.2344 11.1719 90.6719 10.6094C91.1094 10.0365 91.3281 9.1875 91.3281 8.0625C91.3281 6.89583 91.0938 6.06771 90.625 5.57812C90.1667 5.07812 89.4531 4.82812 88.4844 4.82812H87.4219V11.4531ZM109.984 24L108.672 18.2344H102.719L101.406 24H97.1562L102.812 1.0625H108.578L114.25 24H109.984ZM107.875 14.4688L106.656 9.15625C106.583 8.83333 106.417 8.02604 106.156 6.73438C105.906 5.43229 105.755 4.5625 105.703 4.125C105.568 5.02083 105.396 6.01042 105.188 7.09375C104.979 8.16667 104.438 10.625 103.562 14.4688H107.875ZM120.484 24H116.266V1.15625H126.5V4.82812H120.484V11.1719H126.094V14.8438H120.484V24ZM136.375 24H132.141V4.89062H127.766V1.15625H140.75V4.89062H136.375V24ZM143.969 24V1.15625H147.969V24H143.969ZM157.016 24H152.797V1.15625H163.031V4.82812H157.016V11.1719H162.625V14.8438H157.016V24ZM171.391 10.1719L174.438 1.15625H178.891L173.469 14.8438V24H169.281V15.0156L163.875 1.15625H168.359L171.391 10.1719Z"/>
+                </svg>
+            </a>
+
+            <div class="navbar__menu">
+                <div class="navbar__menu_text">Меню</div>
+                <div class="navbar__menu_arrow"></div>
+            </div>
+
+            <div class="navbar__search" id="navbar__search">
+                <label for="search_input">
+                    <input type="text" class="navbar__search_input" id="search_input" placeholder="Поиск">
+                </label>
+
+                <div class="navbar__search_icon">
+                    <svg width="22" height="23" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.686 2.5a6.686 6.686 0 0 1 6.685 6.686 6.702 6.702 0 0 1-1.604 4.35l.278.278h.812L20 18.957 18.457 20.5l-5.143-5.143v-.812l-.277-.278a6.703 6.703 0 0 1-4.351 1.604 6.686 6.686 0 0 1 0-13.371Zm0 2.057a4.61 4.61 0 0 0-4.629 4.629 4.61 4.61 0 0 0 4.629 4.628 4.61 4.61 0 0 0 4.628-4.628 4.61 4.61 0 0 0-4.628-4.629Z"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <a href="#" class="navbar__avatar">
+            </a>
+
+            <div class="navbar__hamburger">
+                <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M52 35H28V33H52V35Z"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M52 41H28V39H52V41Z"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M52 47H28V45H52V47Z"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <main>
+        <section class="file">
+            <div class="container">
+                <div class="file__adress">
+                    <a href="index.html" class="file__adress_home">Главная</a>
+                    <span></span>
+                    <a href="mods.html" class="file__adress_mods">Моды</a>
+                    <span></span>
+                    <a href="mods-item.html" class="file__adress_item">ToolBelt</a>
+                    <span></span>
+                    <a href="mods-file.html" class="file__adress_item">Детали</a>
+                </div>
+
+                <div class="file__blocks">
+                    <div class="file__leftblock">
+                        <div class="file__wrapper">
+
+                            <div class="file__files">
+                                <div class="file__files_title">
+                                    <div class="file__files_title-name">Детали файла</div>
+                                    <a href="#" class="file__files_title-download">Скачать</a>
+                                </div>
+                                <div class="file__files_wrapper">
+                                    <div class="file__files_top">
+                                        <h1 class="file__files_text">jei-1.21-neoforge-19.0.0.3.jar</h1>
+                                        <div class="file__files_descr">
+                                            <div class="file__files_descr-updated">Jun 18, 2024</div>
+                                            <div class="file__files_descr-size">1.06MB</div>
+                                            <div class="file__files_descr-download">119.1K</div>
+                                            <div class="file__files_descr-version">1.21</div>
+                                            <div class="file__files_descr-loaders">NeoForge</div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="file__files_name">
+                                        <div class="file__files_name-text">Название файла</div>
+                                        <div class="file__files_name-descr">jei-1.21-neoforge-19.0.0.3.jar</div>
+                                    </div>
+                                    <hr>
+                                    <div class="file__files_support">
+                                        <div class="file__files_support-text">Поддерживаемые версии</div>
+                                        <div class="file__files_support-descr">1.21</div>
+                                    </div>
+                                    <hr>
+                                    <div class="file__files_description">
+                                        <div class="file__files_description-text">Описание</div>
+                                        <div class="file__files_description-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="file__morefiles">
+                                <h2 class="file__morefiles_title">Еще файлы</h2>
+                                <div class="file__morefiles_versions">
+                                    <ul class="file__morefiles_versions-list">
+                                        <li class="file__morefiles_versions-list-item">
+                                            <a href="#" class="file__morefiles_versions-list-item-link">
+                                                <div class="file__morefiles_versions-list-item-name">название</div>
+                                                <div class="file__morefiles_versions-list-item-descr">
+                                                    <div class="file__morefiles_versions-list-item-version">1.20.4</div>
+                                                    <div class="file__morefiles_versions-list-item-size">22.93КБ</div>
+                                                    <div class="file__morefiles_versions-list-item-loaders">Forge</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="file__morefiles_versions-list-item">
+                                            <a href="#" class="file__morefiles_versions-list-item-link">
+                                                <div class="file__morefiles_versions-list-item-name">название</div>
+                                                <div class="file__morefiles_versions-list-item-descr">
+                                                    <div class="file__morefiles_versions-list-item-version">1.20.4</div>
+                                                    <div class="file__morefiles_versions-list-item-size">22.93КБ</div>
+                                                    <div class="file__morefiles_versions-list-item-loaders">Forge</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="file__morefiles_versions-list-item">
+                                            <a href="#" class="file__morefiles_versions-list-item-link">
+                                                <div class="file__morefiles_versions-list-item-name">название</div>
+                                                <div class="file__morefiles_versions-list-item-descr">
+                                                    <div class="file__morefiles_versions-list-item-version">1.20.4</div>
+                                                    <div class="file__morefiles_versions-list-item-size">22.93КБ</div>
+                                                    <div class="file__morefiles_versions-list-item-loaders">Forge</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="file__install">
+                                <div class="file__install_title">
+                                    Как установить ToolBelt
+                                </div>
+                                <ol class="file__install_list">
+                                    <li class="file__install_list-item">Скачать нужную версию из таблицы ниже.</li>
+                                    <li class="file__install_list-item">Скопировать в папку .minecraft/saves.</li>
+                                    <li class="file__install_list-item">Выбрать в игре сохранение с этой картой.</li>
+                                </ol>
+                            </div>
+                            <div class="file__download">
+                                <h2 class="file__download_title">Скачать ToolBelt</h2>
+                                <div class="file__download_versions">
+                                    <div class="file__download_versions-filters">
+                                        <div class="file__download_versions-filter" id="name">Имя</div>
+                                        <div class="file__download_versions-filter" id="version">Версия</div>
+                                        <div class="file__download_versions-filter" id="loaded">Загружено</div>
+                                        <div class="file__download_versions-filter" id="size">Размер</div>
+                                        <div class="file__download_versions-filter" id="download">Скачать</div>
+                                    </div>
+                                    <ul class="file__download_versions-list">
+                                        <li class="file__download_versions-list-item">
+                                            <div class="file__download_versions-list-title">
+                                                <a href="#" class="file__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                                <div class="file__download_versions-list-version">1.20.4</div>
+                                                <div class="file__download_versions-list-loaded">21.01.2024</div>
+                                                <div class="file__download_versions-list-size">22.93КБ</div>
+                                                <a href="#" class="file__download_versions-list-download">
+                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="file__download_versions-list-component">
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Library (Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Teams (Forge)</a>
+                                            </div>
+                                        </li>
+                                        <li class="file__download_versions-list-item">
+                                            <div class="file__download_versions-list-title">
+                                                <a href="#" class="file__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                                <div class="file__download_versions-list-version">1.20.4</div>
+                                                <div class="file__download_versions-list-loaded">21.01.2024</div>
+                                                <div class="file__download_versions-list-size">22.93КБ</div>
+                                                <a href="#" class="file__download_versions-list-download">
+                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="file__download_versions-list-component">
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Library (Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Teams (Forge)</a>
+                                            </div>
+                                        </li>
+                                        <li class="file__download_versions-list-item">
+                                            <div class="file__download_versions-list-title">
+                                                <a href="#" class="file__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                                <div class="file__download_versions-list-version">1.20.4</div>
+                                                <div class="file__download_versions-list-loaded">21.01.2024</div>
+                                                <div class="file__download_versions-list-size">22.93КБ</div>
+                                                <a href="#" class="file__download_versions-list-download">
+                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="file__download_versions-list-component">
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Library (Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Teams (Forge)</a>
+                                            </div>
+                                        </li>
+                                        <li class="file__download_versions-list-item">
+                                            <div class="file__download_versions-list-title">
+                                                <a href="#" class="file__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                                <div class="file__download_versions-list-version">1.20.4</div>
+                                                <div class="file__download_versions-list-loaded">21.01.2024</div>
+                                                <div class="file__download_versions-list-size">22.93КБ</div>
+                                                <a href="#" class="file__download_versions-list-download">
+                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="file__download_versions-list-component">
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Library (Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Teams (Forge)</a>
+                                            </div>
+                                        </li>
+                                        <li class="file__download_versions-list-item">
+                                            <div class="file__download_versions-list-title">
+                                                <a href="#" class="file__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                                <div class="file__download_versions-list-version">1.20.4</div>
+                                                <div class="file__download_versions-list-loaded">21.01.2024</div>
+                                                <div class="file__download_versions-list-size">22.93КБ</div>
+                                                <a href="#" class="file__download_versions-list-download">
+                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="file__download_versions-list-component">
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Library (Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Teams (Forge)</a>
+                                            </div>
+                                        </li>
+                                        <li class="file__download_versions-list-item">
+                                            <div class="file__download_versions-list-title">
+                                                <a href="#" class="file__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                                <div class="file__download_versions-list-version">1.20.4</div>
+                                                <div class="file__download_versions-list-loaded">21.01.2024</div>
+                                                <div class="file__download_versions-list-size">22.93КБ</div>
+                                                <a href="#" class="file__download_versions-list-download">
+                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="file__download_versions-list-component">
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Library (Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Teams (Forge)</a>
+                                            </div>
+                                        </li>
+                                        <li class="file__download_versions-list-item">
+                                            <div class="file__download_versions-list-title">
+                                                <a href="#" class="file__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                                <div class="file__download_versions-list-version">1.20.4</div>
+                                                <div class="file__download_versions-list-loaded">21.01.2024</div>
+                                                <div class="file__download_versions-list-size">22.93КБ</div>
+                                                <a href="#" class="file__download_versions-list-download">
+                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="file__download_versions-list-component">
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Library (Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Teams (Forge)</a>
+                                            </div>
+                                        </li>
+                                        <li class="file__download_versions-list-item">
+                                            <div class="file__download_versions-list-title">
+                                                <a href="#" class="file__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                                <div class="file__download_versions-list-version">1.20.4</div>
+                                                <div class="file__download_versions-list-loaded">21.01.2024</div>
+                                                <div class="file__download_versions-list-size">22.93КБ</div>
+                                                <a href="#" class="file__download_versions-list-download">
+                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="file__download_versions-list-component">
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Library (Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Teams (Forge)</a>
+                                            </div>
+                                        </li>
+                                        <li class="file__download_versions-list-item">
+                                            <div class="file__download_versions-list-title">
+                                                <a href="#" class="file__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                                <div class="file__download_versions-list-version">1.20.4</div>
+                                                <div class="file__download_versions-list-loaded">21.01.2024</div>
+                                                <div class="file__download_versions-list-size">22.93КБ</div>
+                                                <a href="#" class="file__download_versions-list-download">
+                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="file__download_versions-list-component">
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Library (Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Teams (Forge)</a>
+                                            </div>
+                                        </li>
+                                        <li class="file__download_versions-list-item">
+                                            <div class="file__download_versions-list-title">
+                                                <a href="#" class="file__download_versions-list-name">[1.20.4] NeoForge v 1.4.1</a>
+                                                <div class="file__download_versions-list-version">1.20.4</div>
+                                                <div class="file__download_versions-list-loaded">21.01.2024</div>
+                                                <div class="file__download_versions-list-size">22.93КБ</div>
+                                                <a href="#" class="file__download_versions-list-download">
+                                                    <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M11 15.0219C10.85 15.0219 10.7094 14.9983 10.5781 14.951C10.4469 14.9045 10.325 14.825 10.2125 14.7125L6.1625 10.6625C5.95625 10.4563 5.85313 10.1938 5.85313 9.875C5.85313 9.55625 5.95625 9.29375 6.1625 9.0875C6.36875 8.88125 6.63575 8.77325 6.9635 8.7635C7.292 8.7545 7.55937 8.85312 7.76562 9.05937L9.875 11.1687V3.125C9.875 2.80625 9.983 2.53888 10.199 2.32288C10.4143 2.10763 10.6812 2 11 2C11.3188 2 11.5861 2.10763 11.8021 2.32288C12.0174 2.53888 12.125 2.80625 12.125 3.125V11.1687L14.2344 9.05937C14.4406 8.85312 14.708 8.7545 15.0365 8.7635C15.3643 8.77325 15.6312 8.88125 15.8375 9.0875C16.0437 9.29375 16.1469 9.55625 16.1469 9.875C16.1469 10.1938 16.0437 10.4563 15.8375 10.6625L11.7875 14.7125C11.675 14.825 11.5531 14.9045 11.4219 14.951C11.2906 14.9983 11.15 15.0219 11 15.0219ZM4.25 20C3.63125 20 3.10175 19.7799 2.6615 19.3396C2.2205 18.8986 2 18.3687 2 17.75V15.5C2 15.1812 2.10763 14.9139 2.32288 14.6979C2.53888 14.4826 2.80625 14.375 3.125 14.375C3.44375 14.375 3.71112 14.4826 3.92712 14.6979C4.14237 14.9139 4.25 15.1812 4.25 15.5V17.75H17.75V15.5C17.75 15.1812 17.858 14.9139 18.074 14.6979C18.2892 14.4826 18.5562 14.375 18.875 14.375C19.1938 14.375 19.4608 14.4826 19.676 14.6979C19.892 14.9139 20 15.1812 20 15.5V17.75C20 18.3687 19.7799 18.8986 19.3396 19.3396C18.8986 19.7799 18.3687 20 17.75 20H4.25Z"/>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="file__download_versions-list-component">
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">Architectury API (Fabric/Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Library (Forge)</a>
+                                                <a href="mods-file.html" class="file__download_versions-list-component-link">FTB Teams (Forge)</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="file__rightblock">
+                        <div class="file__mini">
+                            <div class="file__bg">
+                                <img src="img/mods/ToolBelt.jpg" alt="ToolBelt">
+                            </div>
+                            <div class="file__icon">
+                                <img src="img/mods/ToolBelt.jpg" alt="ToolBelt">
+                            </div>
+                            <div class="file__top">
+                                <div class="file__title">
+                                    <h1 class="file__title_name">ToolBelt</h1>
+                                    <a href="mods.html" class="file__title_category">Карты</a>
+                                </div>
+                                <div class="file__info">
+                                    <div class="file__info_top">
+                                        <div class="file__info_created">
+                                            <div class="file__info_created-title">Created</div>
+                                            <div class="file__info_created-descr">Jun 13, 2020</div>
+                                        </div>
+                                        <div class="file__info_updated">
+                                            <div class="file__info_updated-title">Updated</div>
+                                            <div class="file__info_updated-descr">Dec 7, 2023</div>
+                                        </div>
+                                        <a href="#" class="file__info_download">
+                                            <div class="file__info_download-title">Download</div>
+                                            <div class="file__info_download-descr">316.12MB</div>
+                                        </a>
+                                    </div>
+                                    <div class="file__info_bottom">
+                                        <div class="file__info_latestversion">
+                                            <div class="file__info_latestversion-title">Latest version</div>
+                                            <div class="file__info_latestversion-descr"><span>1.20.1</span></div>
+                                        </div>
+                                        <div class="file__info_stats">
+                                            <div class="file__info_stats-title">Stats</div>
+                                            <div class="file__info_stats-details">
+                                                <div class="file__info_stats-download">3.88K</div>
+                                                <div class="file__info_stats-views">21.95K</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="file__newversions">
+                            <h2 class="file__newversions_title">Новые версии</h2>
+                            <div class="file__newversions_versions">
+                                <ul class="file__newversions_versions-list">
+                                    <li class="file__newversions_versions-list-item">
+                                        <a href="#" class="file__newversions_versions-list-item-link">
+                                            <div class="file__newversions_versions-list-item-name">название</div>
+                                            <div class="file__newversions_versions-list-item-descr">
+                                                <div class="file__newversions_versions-list-item-version">1.20.4</div>
+                                                <div class="file__newversions_versions-list-item-size">22.93КБ</div>
+                                                <div class="file__newversions_versions-list-item-loaders">Forge</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="file__newversions_versions-list-item">
+                                        <a href="#" class="file__newversions_versions-list-item-link">
+                                            <div class="file__newversions_versions-list-item-name">название</div>
+                                            <div class="file__newversions_versions-list-item-descr">
+                                                <div class="file__newversions_versions-list-item-version">1.20.4</div>
+                                                <div class="file__newversions_versions-list-item-size">22.93КБ</div>
+                                                <div class="file__newversions_versions-list-item-loaders">Forge</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="file__newversions_versions-list-item">
+                                        <a href="#" class="file__newversions_versions-list-item-link">
+                                            <div class="file__newversions_versions-list-item-name">название</div>
+                                            <div class="file__newversions_versions-list-item-descr">
+                                                <div class="file__newversions_versions-list-item-version">1.20.4</div>
+                                                <div class="file__newversions_versions-list-item-size">22.93КБ</div>
+                                                <div class="file__newversions_versions-list-item-loaders">Forge</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__name">Minecraftify © 2024</div>
+
+                <div class="footer__links">
+                    <a href="" class="footer__link">
+                        <div class="footer__link_icon">
+                            <svg viewBox="0 0 101 100" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2_16)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.52944 7.02944C0.5 14.0589 0.5 25.3726 0.5 48V52C0.5 74.6274 0.5 85.9411 7.52944 92.9706C14.5589 100 25.8726 100 48.5 100H52.5C75.1274 100 86.4411 100 93.4706 92.9706C100.5 85.9411 100.5 74.6274 100.5 52V48C100.5 25.3726 100.5 14.0589 93.4706 7.02944C86.4411 0 75.1274 0 52.5 0H48.5C25.8726 0 14.5589 0 7.52944 7.02944ZM17.3752 30.4169C17.9168 56.4169 30.9167 72.0418 53.7084 72.0418H55.0003V57.1668C63.3753 58.0001 69.7082 64.1252 72.2498 72.0418H84.0835C80.8335 60.2085 72.2914 53.6668 66.9581 51.1668C72.2914 48.0835 79.7915 40.5835 81.5831 30.4169H70.8328C68.4995 38.6669 61.5836 46.1668 55.0003 46.8751V30.4169H44.2499V59.2501C37.5833 57.5835 29.1668 49.5002 28.7918 30.4169H17.3752Z"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_16">
+                                        <rect width="100" height="100" fill="white" transform="translate(0.5)"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="" class="footer__link">
+                        <div class="footer__link_icon">
+                            <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+                                <g id="Artboard" stroke="none" stroke-width="1" fill-rule="evenodd">
+                                    <circle id="Oval" cx="500" cy="500" r="500"></circle>
+                                    <path d="M226.328419,494.722069 C372.088573,431.216685 469.284839,389.350049 517.917216,369.122161 C656.772535,311.36743 685.625481,301.334815 704.431427,301.003532 C708.567621,300.93067 717.815839,301.955743 723.806446,306.816707 C728.864797,310.92121 730.256552,316.46581 730.922551,320.357329 C731.588551,324.248848 732.417879,333.113828 731.758626,340.040666 C724.234007,419.102486 691.675104,610.964674 675.110982,699.515267 C668.10208,736.984342 654.301336,749.547532 640.940618,750.777006 C611.904684,753.448938 589.856115,731.588035 561.733393,713.153237 C517.726886,684.306416 492.866009,666.349181 450.150074,638.200013 C400.78442,605.66878 432.786119,587.789048 460.919462,558.568563 C468.282091,550.921423 596.21508,434.556479 598.691227,424.000355 C599.00091,422.680135 599.288312,417.758981 596.36474,415.160431 C593.441168,412.561881 589.126229,413.450484 586.012448,414.157198 C581.598758,415.158943 511.297793,461.625274 375.109553,553.556189 C355.154858,567.258623 337.080515,573.934908 320.886524,573.585046 C303.033948,573.199351 268.692754,563.490928 243.163606,555.192408 C211.851067,545.013936 186.964484,539.632504 189.131547,522.346309 C190.260287,513.342589 202.659244,504.134509 226.328419,494.722069 Z" id="Path-3" fill="#FFFFFF"></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="" class="footer__link">
+                        <div class="footer__link_icon">
+                            <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0_1_194" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="120" height="120">
+                                    <path d="M0 60C0 26.8629 26.8629 0 60 0C93.1371 0 120 26.8629 120 60C120 93.1371 93.1371 120 60 120C26.8629 120 0 93.1371 0 60Z"/>
+                                </mask>
+                                <g mask="url(#mask0_1_194)">
+                                    <path d="M0 60C0 26.8629 26.8629 0 60 0C93.1371 0 120 26.8629 120 60C120 93.1371 93.1371 120 60 120C26.8629 120 0 93.1371 0 60Z"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M58.202 0C57.8998 24.3232 56.2395 37.994 47.1168 47.1167C37.994 56.2394 24.3232 57.8998 0 58.2019V61.798C24.3232 62.1002 37.9941 63.7605 47.1168 72.8833C56.2395 82.006 57.8998 95.6768 58.202 120H61.798C62.1002 95.6768 63.7606 82.006 72.8833 72.8832C82.006 63.7605 95.6768 62.1002 120 61.798V58.2019C95.6768 57.8997 82.006 56.2394 72.8832 47.1167C63.7605 37.994 62.1002 24.3231 61.798 0H58.202Z" fill="white"/>
+                                </g>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="" class="footer__link">
+                        <div class="footer__link_icon">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M99.1212 21.6657C98.2425 15.1305 96.4852 10.5448 92.9706 7.03017C89.4559 3.51554 84.8703 1.75818 78.335 0.879482C77.7223 0.7971 77.0926 0.72244 76.4449 0.65478C70.1842 0.000732422 62.2542 0.000732422 52 0.000732422H48C36.989 0.000732422 28.658 0.000732422 22.196 0.810537C15.3769 1.66501 10.6385 3.42111 7.02944 7.03017C3.5148 10.5448 1.75745 15.1305 0.87875 21.6657C0.796367 22.2784 0.721708 22.9082 0.654048 23.5558C0 29.8165 0 37.7465 0 48.0007V52.0007C0 63.0117 0 71.3427 0.809804 77.8047C1.66428 84.6238 3.42037 89.3622 7.02944 92.9713C10.0507 95.9926 13.8634 97.7152 19.0257 98.6975C25.8735 100.001 35.0966 100.001 48 100.001H52C63.315 100.001 71.8 100.001 78.335 99.122C84.8703 98.2433 89.4559 96.4859 92.9706 92.9713C95.9918 89.95 97.7145 86.1373 98.6968 80.9751C100 74.1272 100 64.9041 100 52.0007V48.0007C100 36.6857 100 28.2007 99.1212 21.6657ZM42.53 31.5607C41.3 33.2407 41.3 36.1607 41.3 42.0007V58.0007C41.3 63.8307 41.3 66.7507 42.53 68.4407C43.6 69.9107 45.24 70.8607 47.05 71.0507C49.1216 71.2698 51.6296 69.8225 56.6487 66.9261L70.6952 58.8126C75.6552 55.9447 78.1476 54.5036 78.99 52.6107C79.73 50.9507 79.73 49.0507 78.99 47.3907C78.14 45.4907 75.62 44.0307 70.56 41.1107L56.71 33.1107C51.65 30.1907 49.12 28.7307 47.05 28.9507C45.24 29.1407 43.6 30.0907 42.53 31.5607ZM27.1346 95.6345C25.3587 95.5172 23.7197 95.3623 22.1985 95.1577C16.1065 94.3387 12.5055 92.7905 9.85786 90.1429C7.21022 87.4952 5.66206 83.8942 4.84301 77.8023C4.00849 71.5952 4 63.4275 4 52.0007V48.0007C4 36.5739 4.00849 28.4062 4.84301 22.1992C5.66206 16.1072 7.21022 12.5062 9.85786 9.8586C12.5055 7.21095 16.1065 5.66279 22.1985 4.84374C23.7067 4.64096 25.3308 4.48695 27.0892 4.36999C25.852 5.11662 24.7285 5.99223 23.7 7.02073C16.67 14.0507 16.67 25.3607 16.67 47.9907V51.9907C16.67 74.6207 16.67 85.9307 23.7 92.9607C24.7391 93.9998 25.8794 94.8829 27.1346 95.6345Z"/>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="footer__mail">
+                    <a href="mailto:minecraftify@gmail.com" class="footer__mail">minecraftify@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/hamburger.js"></script>
+    <script src="js/file.js" ></script>
+</body>
+</html>
