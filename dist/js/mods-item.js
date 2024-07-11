@@ -17,9 +17,9 @@ const swiper = new Swiper('.swiper', {
 
 });
 
-document.querySelector('.mods-item__descr_title').addEventListener('click', function() {
+document.querySelector('.blocks-main__descr_title').addEventListener('click', function() {
     this.classList.toggle('hidden');
 });
-document.querySelector('.mods-item__install_title').addEventListener('click', function() {
+document.querySelector('.blocks-main__install_title').addEventListener('click', function() {
     this.classList.toggle('hidden');
 });
