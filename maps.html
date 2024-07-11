@@ -165,499 +165,456 @@
     <main>
         <section class="maps">
             <div class="container">
-                <div class="maps__blocks">
-                    <div class="maps__leftblock">
-                        <div class="maps__categories">
-                            <a href="#" class="maps__category" data-id="different" >
-                                <img src="icons/maps/survival.svg" alt="Выживание" class="maps__category_icon">
-                                <div class="maps__category_text">Выживание</div>
-                            </a>
-                            <a href="#" class="maps__category" data-id="libraries" >
-                                <img src="icons/maps/adventure.svg" alt="Приключение" class="maps__category_icon">
-                                <div class="maps__category_text">Приключение</div>
-                            </a>
-                            <a href="#" class="maps__category" data-id="useful" >
-                                <img src="icons/maps/maps.svg" alt="Карты игры" class="maps__category_icon">
-                                <div class="maps__category_text">Карты игры</div>
-                            </a>
-                            <a href="#" class="maps__category" data-id="food" >
-                                <img src="icons/maps/parkour.svg" alt="Паркур" class="maps__category_icon">
-                                <div class="maps__category_text">Паркур</div>
-                            </a>
-                            <a href="#" class="maps__category" data-id="ore" >
-                                <img src="icons/maps/puzzles.svg" alt="Головоломки" class="maps__category_icon">
-                                <div class="maps__category_text">Головоломки</div>
-                            </a>
+                <div class="content">
+                    <div class="blocks">
+                        <div class="blocks-category">
+                            <div class="blocks-category__wrapper">
+                                <a href="#" class="blocks-category__class">
+                                    <img src="icons/maps/survival.svg" alt="" class="blocks-category__class_icon">
+                                    <div class="blocks-category__class_text">Выживание</div>
+                                </a>
+                                <a href="#" class="blocks-category__class">
+                                    <img src="icons/maps/adventure.svg" alt="" class="blocks-category__class_icon">
+                                    <div class="blocks-category__class_text">Приключение</div>
+                                </a>
+                                <a href="#" class="blocks-category__class">
+                                    <img src="icons/maps/maps.svg" alt="" class="blocks-category__class_icon">
+                                    <div class="blocks-category__class_text">Карты игры</div>
+                                </a>
+                                <a href="#" class="blocks-category__class">
+                                    <img src="icons/maps/parkour.svg" alt="" class="blocks-category__class_icon">
+                                    <div class="blocks-category__class_text">Паркур</div>
+                                </a>
+                                <a href="#" class="blocks-category__class">
+                                    <img src="icons/maps/puzzles.svg" alt="" class="blocks-category__class_icon">
+                                    <div class="blocks-category__class_text">Головоломки</div>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="maps__rightblock">
-                        <div class="maps__adress">
-                            <a href="index.html" class="maps__adress_home">Главная</a>
-                            <span></span>
-                            <a href="maps.html" class="maps__adress_maps">Карты</a>
-                        </div>
-
-                        <h1 class="maps__title">Карты майнкрафт</h1>
-                        <div class="maps__subtitle">В этом разделе собрано большое количество карт для майнкрафта . Карты можно выбрать на любой вкус: карты городов, хоррор, прохождения, разные интересные миры и много другого.</div>
-
-                        <div class="maps__wrapper">
-                            <div class="maps__filters">
-                                <div class="maps__filter" id="search">
-                                    <div class="maps__filter_search-icon">
-                                        <svg width="22" height="23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M8.686 2.5a6.686 6.686 0 0 1 6.685 6.686 6.702 6.702 0 0 1-1.604 4.35l.278.278h.812L20 18.957 18.457 20.5l-5.143-5.143v-.812l-.277-.278a6.703 6.703 0 0 1-4.351 1.604 6.686 6.686 0 0 1 0-13.371Zm0 2.057a4.61 4.61 0 0 0-4.629 4.629 4.61 4.61 0 0 0 4.629 4.628 4.61 4.61 0 0 0 4.628-4.628 4.61 4.61 0 0 0-4.628-4.629Z"></path>
-                                        </svg>
-                                    </div>
-                                    <label for="search-input">
-                                        <input type="text" class="maps__filter_input" id="search-input" placeholder="Поиск">
-                                    </label>
-                                    <div class="maps__filter_search-clear">
-                                        <svg width="22" height="23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.637 18.364 17.365 5.636M17.364 18.364 4.636 5.636"></path>
-                                        </svg>
-                                    </div>
+                        <div class="blocks-list">
+                            <div class="top-column">
+                                <div class="adress">
+                                    <a href="index.html">Главная</a>
+                                    <span></span>
+                                    <a href="maps.html">Карты</a>
                                 </div>
 
-                                <div class="maps__filter" id="versions">
-                                    <label for="versions-input">
-                                        <input type="text" class="maps__filter_input" id="versions-input" placeholder="Все версии">
-                                    </label>
-                                    <div class="maps__filter_arrow"></div>
-                                </div>
-
-                                <div class="maps__filter" id="loaders">
-                                    <label for="loaders-input">
-                                        <input type="text" class="maps__filter_input" id="loaders-input" placeholder="Все загрузчики">
-                                    </label>
-                                    <div class="maps__filter_arrow"></div>
-                                </div>
-
-                                <div class="maps__filter" id="category">
-                                    <label for="category-input">
-                                        <input type="text" class="maps__filter_input" id="category-input" placeholder="Категория">
-                                    </label>
-                                    <div class="maps__filter_arrow"></div>
-                                </div>
-
-                                <div class="maps__filter" id="date">
-                                    <label for="date-input">
-                                        <input type="text" class="maps__filter_input" id="date-input" placeholder="Дата обновления">
-                                    </label>
-                                    <div class="maps__filter_arrow"></div>
-                                </div>
+                                <h1 class="title-h1">Карты майнкрафт</h1>
+                                <div class="title-sub">В этом разделе собрано большое количество карт для майнкрафта . Карты можно выбрать на любой вкус: карты городов, хоррор, прохождения, разные интересные миры и много другого.</div>
                             </div>
 
-                            <div class="maps__items">
-                                <a href="maps-item.html" class="maps__item">
-                                    <div class="maps__item_top">
-                                        <div class="maps__item_icon">
+                            <div class="blocks-list__items">
+                                <a href="maps-item.html" class="blocks-list__item">
+                                    <div class="blocks-list__item_top">
+                                        <div class="blocks-list__item_icon">
                                             <img src="img/maps/OneBlock.png" alt="">
                                         </div>
-                                        <div class="maps__item_text">
-                                            <div class="maps__item_text-wrapper">
-                                                <div class="maps__item_text-title">OneBlock</div>
-                                                <div class="maps__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
+                                        <div class="blocks-list__item_text">
+                                            <div class="blocks-list__item_text-wrapper">
+                                                <div class="blocks-list__item_text-title">OneBlock</div>
+                                                <div class="blocks-list__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
                                             </div>
-                                            <div class="maps__item_text-info">
-                                                <div class="maps__item_text-info-download">1.6M</div>
-                                                <div class="maps__item_text-info-updated">Jun 27, 2024</div>
-                                                <div class="maps__item_text-info-created">Dec 27, 2023</div>
-                                                <div class="maps__item_text-info-size">831.99 KB</div>
-                                                <div class="maps__item_text-info-version">1.20.4</div>
-                                                <div class="maps__item_text-info-loaders">Fabric</div>
+                                            <div class="blocks-list__item_text-info">
+                                                <div class="blocks-list__item_text-info-download">1.6M</div>
+                                                <div class="blocks-list__item_text-info-updated">Jun 27, 2024</div>
+                                                <div class="blocks-list__item_text-info-created">Dec 27, 2023</div>
+                                                <div class="blocks-list__item_text-info-size">831.99 KB</div>
+                                                <div class="blocks-list__item_text-info-version">1.20.4</div>
+                                                <div class="blocks-list__item_text-info-loaders">Fabric</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="maps__item_details">
-                                        <div class="maps__item_details-category">Maps</div>
-                                        <div class="maps__item_details-category-descr"><span>Magic</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Adventure and RPG</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Create</span></div>
+                                    <div class="blocks-list__item_details">
+                                        <div class="blocks-list__item_details-category">Maps</div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Magic</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Adventure and RPG</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Create</span></div>
                                     </div>
                                 </a>
-                                <a href="maps-item.html" class="maps__item">
-                                    <div class="maps__item_top">
-                                        <div class="maps__item_icon">
+                                <a href="maps-item.html" class="blocks-list__item">
+                                    <div class="blocks-list__item_top">
+                                        <div class="blocks-list__item_icon">
                                             <img src="img/maps/OneBlock.png" alt="">
                                         </div>
-                                        <div class="maps__item_text">
-                                            <div class="maps__item_text-wrapper">
-                                                <div class="maps__item_text-title">OneBlock</div>
-                                                <div class="maps__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
+                                        <div class="blocks-list__item_text">
+                                            <div class="blocks-list__item_text-wrapper">
+                                                <div class="blocks-list__item_text-title">OneBlock</div>
+                                                <div class="blocks-list__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
                                             </div>
-                                            <div class="maps__item_text-info">
-                                                <div class="maps__item_text-info-download">1.6M</div>
-                                                <div class="maps__item_text-info-updated">Jun 27, 2024</div>
-                                                <div class="maps__item_text-info-created">Dec 27, 2023</div>
-                                                <div class="maps__item_text-info-size">831.99 KB</div>
-                                                <div class="maps__item_text-info-version">1.20.4</div>
-                                                <div class="maps__item_text-info-loaders">Fabric</div>
+                                            <div class="blocks-list__item_text-info">
+                                                <div class="blocks-list__item_text-info-download">1.6M</div>
+                                                <div class="blocks-list__item_text-info-updated">Jun 27, 2024</div>
+                                                <div class="blocks-list__item_text-info-created">Dec 27, 2023</div>
+                                                <div class="blocks-list__item_text-info-size">831.99 KB</div>
+                                                <div class="blocks-list__item_text-info-version">1.20.4</div>
+                                                <div class="blocks-list__item_text-info-loaders">Fabric</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="maps__item_details">
-                                        <div class="maps__item_details-category">Maps</div>
-                                        <div class="maps__item_details-category-descr"><span>Magic</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Adventure and RPG</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Create</span></div>
+                                    <div class="blocks-list__item_details">
+                                        <div class="blocks-list__item_details-category">Maps</div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Magic</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Adventure and RPG</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Create</span></div>
                                     </div>
                                 </a>
-                                <a href="maps-item.html" class="maps__item">
-                                    <div class="maps__item_top">
-                                        <div class="maps__item_icon">
+                                <a href="maps-item.html" class="blocks-list__item">
+                                    <div class="blocks-list__item_top">
+                                        <div class="blocks-list__item_icon">
                                             <img src="img/maps/OneBlock.png" alt="">
                                         </div>
-                                        <div class="maps__item_text">
-                                            <div class="maps__item_text-wrapper">
-                                                <div class="maps__item_text-title">OneBlock</div>
-                                                <div class="maps__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
+                                        <div class="blocks-list__item_text">
+                                            <div class="blocks-list__item_text-wrapper">
+                                                <div class="blocks-list__item_text-title">OneBlock</div>
+                                                <div class="blocks-list__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
                                             </div>
-                                            <div class="maps__item_text-info">
-                                                <div class="maps__item_text-info-download">1.6M</div>
-                                                <div class="maps__item_text-info-updated">Jun 27, 2024</div>
-                                                <div class="maps__item_text-info-created">Dec 27, 2023</div>
-                                                <div class="maps__item_text-info-size">831.99 KB</div>
-                                                <div class="maps__item_text-info-version">1.20.4</div>
-                                                <div class="maps__item_text-info-loaders">Fabric</div>
+                                            <div class="blocks-list__item_text-info">
+                                                <div class="blocks-list__item_text-info-download">1.6M</div>
+                                                <div class="blocks-list__item_text-info-updated">Jun 27, 2024</div>
+                                                <div class="blocks-list__item_text-info-created">Dec 27, 2023</div>
+                                                <div class="blocks-list__item_text-info-size">831.99 KB</div>
+                                                <div class="blocks-list__item_text-info-version">1.20.4</div>
+                                                <div class="blocks-list__item_text-info-loaders">Fabric</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="maps__item_details">
-                                        <div class="maps__item_details-category">Maps</div>
-                                        <div class="maps__item_details-category-descr"><span>Magic</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Adventure and RPG</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Create</span></div>
+                                    <div class="blocks-list__item_details">
+                                        <div class="blocks-list__item_details-category">Maps</div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Magic</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Adventure and RPG</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Create</span></div>
                                     </div>
                                 </a>
-                                <a href="maps-item.html" class="maps__item">
-                                    <div class="maps__item_top">
-                                        <div class="maps__item_icon">
+                                <a href="maps-item.html" class="blocks-list__item">
+                                    <div class="blocks-list__item_top">
+                                        <div class="blocks-list__item_icon">
                                             <img src="img/maps/OneBlock.png" alt="">
                                         </div>
-                                        <div class="maps__item_text">
-                                            <div class="maps__item_text-wrapper">
-                                                <div class="maps__item_text-title">OneBlock</div>
-                                                <div class="maps__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
+                                        <div class="blocks-list__item_text">
+                                            <div class="blocks-list__item_text-wrapper">
+                                                <div class="blocks-list__item_text-title">OneBlock</div>
+                                                <div class="blocks-list__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
                                             </div>
-                                            <div class="maps__item_text-info">
-                                                <div class="maps__item_text-info-download">1.6M</div>
-                                                <div class="maps__item_text-info-updated">Jun 27, 2024</div>
-                                                <div class="maps__item_text-info-created">Dec 27, 2023</div>
-                                                <div class="maps__item_text-info-size">831.99 KB</div>
-                                                <div class="maps__item_text-info-version">1.20.4</div>
-                                                <div class="maps__item_text-info-loaders">Fabric</div>
+                                            <div class="blocks-list__item_text-info">
+                                                <div class="blocks-list__item_text-info-download">1.6M</div>
+                                                <div class="blocks-list__item_text-info-updated">Jun 27, 2024</div>
+                                                <div class="blocks-list__item_text-info-created">Dec 27, 2023</div>
+                                                <div class="blocks-list__item_text-info-size">831.99 KB</div>
+                                                <div class="blocks-list__item_text-info-version">1.20.4</div>
+                                                <div class="blocks-list__item_text-info-loaders">Fabric</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="maps__item_details">
-                                        <div class="maps__item_details-category">Maps</div>
-                                        <div class="maps__item_details-category-descr"><span>Magic</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Adventure and RPG</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Create</span></div>
+                                    <div class="blocks-list__item_details">
+                                        <div class="blocks-list__item_details-category">Maps</div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Magic</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Adventure and RPG</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Create</span></div>
                                     </div>
                                 </a>
-                                <a href="maps-item.html" class="maps__item">
-                                    <div class="maps__item_top">
-                                        <div class="maps__item_icon">
+                                <a href="maps-item.html" class="blocks-list__item">
+                                    <div class="blocks-list__item_top">
+                                        <div class="blocks-list__item_icon">
                                             <img src="img/maps/OneBlock.png" alt="">
                                         </div>
-                                        <div class="maps__item_text">
-                                            <div class="maps__item_text-wrapper">
-                                                <div class="maps__item_text-title">OneBlock</div>
-                                                <div class="maps__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
+                                        <div class="blocks-list__item_text">
+                                            <div class="blocks-list__item_text-wrapper">
+                                                <div class="blocks-list__item_text-title">OneBlock</div>
+                                                <div class="blocks-list__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
                                             </div>
-                                            <div class="maps__item_text-info">
-                                                <div class="maps__item_text-info-download">1.6M</div>
-                                                <div class="maps__item_text-info-updated">Jun 27, 2024</div>
-                                                <div class="maps__item_text-info-created">Dec 27, 2023</div>
-                                                <div class="maps__item_text-info-size">831.99 KB</div>
-                                                <div class="maps__item_text-info-version">1.20.4</div>
-                                                <div class="maps__item_text-info-loaders">Fabric</div>
+                                            <div class="blocks-list__item_text-info">
+                                                <div class="blocks-list__item_text-info-download">1.6M</div>
+                                                <div class="blocks-list__item_text-info-updated">Jun 27, 2024</div>
+                                                <div class="blocks-list__item_text-info-created">Dec 27, 2023</div>
+                                                <div class="blocks-list__item_text-info-size">831.99 KB</div>
+                                                <div class="blocks-list__item_text-info-version">1.20.4</div>
+                                                <div class="blocks-list__item_text-info-loaders">Fabric</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="maps__item_details">
-                                        <div class="maps__item_details-category">Maps</div>
-                                        <div class="maps__item_details-category-descr"><span>Magic</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Adventure and RPG</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Create</span></div>
+                                    <div class="blocks-list__item_details">
+                                        <div class="blocks-list__item_details-category">Maps</div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Magic</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Adventure and RPG</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Create</span></div>
                                     </div>
                                 </a>
-                                <a href="maps-item.html" class="maps__item">
-                                    <div class="maps__item_top">
-                                        <div class="maps__item_icon">
+                                <a href="maps-item.html" class="blocks-list__item">
+                                    <div class="blocks-list__item_top">
+                                        <div class="blocks-list__item_icon">
                                             <img src="img/maps/OneBlock.png" alt="">
                                         </div>
-                                        <div class="maps__item_text">
-                                            <div class="maps__item_text-wrapper">
-                                                <div class="maps__item_text-title">OneBlock</div>
-                                                <div class="maps__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
+                                        <div class="blocks-list__item_text">
+                                            <div class="blocks-list__item_text-wrapper">
+                                                <div class="blocks-list__item_text-title">OneBlock</div>
+                                                <div class="blocks-list__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
                                             </div>
-                                            <div class="maps__item_text-info">
-                                                <div class="maps__item_text-info-download">1.6M</div>
-                                                <div class="maps__item_text-info-updated">Jun 27, 2024</div>
-                                                <div class="maps__item_text-info-created">Dec 27, 2023</div>
-                                                <div class="maps__item_text-info-size">831.99 KB</div>
-                                                <div class="maps__item_text-info-version">1.20.4</div>
-                                                <div class="maps__item_text-info-loaders">Fabric</div>
+                                            <div class="blocks-list__item_text-info">
+                                                <div class="blocks-list__item_text-info-download">1.6M</div>
+                                                <div class="blocks-list__item_text-info-updated">Jun 27, 2024</div>
+                                                <div class="blocks-list__item_text-info-created">Dec 27, 2023</div>
+                                                <div class="blocks-list__item_text-info-size">831.99 KB</div>
+                                                <div class="blocks-list__item_text-info-version">1.20.4</div>
+                                                <div class="blocks-list__item_text-info-loaders">Fabric</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="maps__item_details">
-                                        <div class="maps__item_details-category">Maps</div>
-                                        <div class="maps__item_details-category-descr"><span>Magic</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Adventure and RPG</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Create</span></div>
+                                    <div class="blocks-list__item_details">
+                                        <div class="blocks-list__item_details-category">Maps</div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Magic</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Adventure and RPG</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Create</span></div>
                                     </div>
                                 </a>
-                                <a href="maps-item.html" class="maps__item">
-                                    <div class="maps__item_top">
-                                        <div class="maps__item_icon">
+                                <a href="maps-item.html" class="blocks-list__item">
+                                    <div class="blocks-list__item_top">
+                                        <div class="blocks-list__item_icon">
                                             <img src="img/maps/OneBlock.png" alt="">
                                         </div>
-                                        <div class="maps__item_text">
-                                            <div class="maps__item_text-wrapper">
-                                                <div class="maps__item_text-title">OneBlock</div>
-                                                <div class="maps__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
+                                        <div class="blocks-list__item_text">
+                                            <div class="blocks-list__item_text-wrapper">
+                                                <div class="blocks-list__item_text-title">OneBlock</div>
+                                                <div class="blocks-list__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
                                             </div>
-                                            <div class="maps__item_text-info">
-                                                <div class="maps__item_text-info-download">1.6M</div>
-                                                <div class="maps__item_text-info-updated">Jun 27, 2024</div>
-                                                <div class="maps__item_text-info-created">Dec 27, 2023</div>
-                                                <div class="maps__item_text-info-size">831.99 KB</div>
-                                                <div class="maps__item_text-info-version">1.20.4</div>
-                                                <div class="maps__item_text-info-loaders">Fabric</div>
+                                            <div class="blocks-list__item_text-info">
+                                                <div class="blocks-list__item_text-info-download">1.6M</div>
+                                                <div class="blocks-list__item_text-info-updated">Jun 27, 2024</div>
+                                                <div class="blocks-list__item_text-info-created">Dec 27, 2023</div>
+                                                <div class="blocks-list__item_text-info-size">831.99 KB</div>
+                                                <div class="blocks-list__item_text-info-version">1.20.4</div>
+                                                <div class="blocks-list__item_text-info-loaders">Fabric</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="maps__item_details">
-                                        <div class="maps__item_details-category">Maps</div>
-                                        <div class="maps__item_details-category-descr"><span>Magic</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Adventure and RPG</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Create</span></div>
+                                    <div class="blocks-list__item_details">
+                                        <div class="blocks-list__item_details-category">Maps</div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Magic</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Adventure and RPG</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Create</span></div>
                                     </div>
                                 </a>
-                                <a href="maps-item.html" class="maps__item">
-                                    <div class="maps__item_top">
-                                        <div class="maps__item_icon">
+                                <a href="maps-item.html" class="blocks-list__item">
+                                    <div class="blocks-list__item_top">
+                                        <div class="blocks-list__item_icon">
                                             <img src="img/maps/OneBlock.png" alt="">
                                         </div>
-                                        <div class="maps__item_text">
-                                            <div class="maps__item_text-wrapper">
-                                                <div class="maps__item_text-title">OneBlock</div>
-                                                <div class="maps__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
+                                        <div class="blocks-list__item_text">
+                                            <div class="blocks-list__item_text-wrapper">
+                                                <div class="blocks-list__item_text-title">OneBlock</div>
+                                                <div class="blocks-list__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
                                             </div>
-                                            <div class="maps__item_text-info">
-                                                <div class="maps__item_text-info-download">1.6M</div>
-                                                <div class="maps__item_text-info-updated">Jun 27, 2024</div>
-                                                <div class="maps__item_text-info-created">Dec 27, 2023</div>
-                                                <div class="maps__item_text-info-size">831.99 KB</div>
-                                                <div class="maps__item_text-info-version">1.20.4</div>
-                                                <div class="maps__item_text-info-loaders">Fabric</div>
+                                            <div class="blocks-list__item_text-info">
+                                                <div class="blocks-list__item_text-info-download">1.6M</div>
+                                                <div class="blocks-list__item_text-info-updated">Jun 27, 2024</div>
+                                                <div class="blocks-list__item_text-info-created">Dec 27, 2023</div>
+                                                <div class="blocks-list__item_text-info-size">831.99 KB</div>
+                                                <div class="blocks-list__item_text-info-version">1.20.4</div>
+                                                <div class="blocks-list__item_text-info-loaders">Fabric</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="maps__item_details">
-                                        <div class="maps__item_details-category">Maps</div>
-                                        <div class="maps__item_details-category-descr"><span>Magic</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Adventure and RPG</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Create</span></div>
+                                    <div class="blocks-list__item_details">
+                                        <div class="blocks-list__item_details-category">Maps</div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Magic</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Adventure and RPG</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Create</span></div>
                                     </div>
                                 </a>
-                                <a href="maps-item.html" class="maps__item">
-                                    <div class="maps__item_top">
-                                        <div class="maps__item_icon">
+                                <a href="maps-item.html" class="blocks-list__item">
+                                    <div class="blocks-list__item_top">
+                                        <div class="blocks-list__item_icon">
                                             <img src="img/maps/OneBlock.png" alt="">
                                         </div>
-                                        <div class="maps__item_text">
-                                            <div class="maps__item_text-wrapper">
-                                                <div class="maps__item_text-title">OneBlock</div>
-                                                <div class="maps__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
+                                        <div class="blocks-list__item_text">
+                                            <div class="blocks-list__item_text-wrapper">
+                                                <div class="blocks-list__item_text-title">OneBlock</div>
+                                                <div class="blocks-list__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
                                             </div>
-                                            <div class="maps__item_text-info">
-                                                <div class="maps__item_text-info-download">1.6M</div>
-                                                <div class="maps__item_text-info-updated">Jun 27, 2024</div>
-                                                <div class="maps__item_text-info-created">Dec 27, 2023</div>
-                                                <div class="maps__item_text-info-size">831.99 KB</div>
-                                                <div class="maps__item_text-info-version">1.20.4</div>
-                                                <div class="maps__item_text-info-loaders">Fabric</div>
+                                            <div class="blocks-list__item_text-info">
+                                                <div class="blocks-list__item_text-info-download">1.6M</div>
+                                                <div class="blocks-list__item_text-info-updated">Jun 27, 2024</div>
+                                                <div class="blocks-list__item_text-info-created">Dec 27, 2023</div>
+                                                <div class="blocks-list__item_text-info-size">831.99 KB</div>
+                                                <div class="blocks-list__item_text-info-version">1.20.4</div>
+                                                <div class="blocks-list__item_text-info-loaders">Fabric</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="maps__item_details">
-                                        <div class="maps__item_details-category">Maps</div>
-                                        <div class="maps__item_details-category-descr"><span>Magic</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Adventure and RPG</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Create</span></div>
+                                    <div class="blocks-list__item_details">
+                                        <div class="blocks-list__item_details-category">Maps</div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Magic</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Adventure and RPG</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Create</span></div>
                                     </div>
                                 </a>
-                                <a href="maps-item.html" class="maps__item">
-                                    <div class="maps__item_top">
-                                        <div class="maps__item_icon">
+                                <a href="maps-item.html" class="blocks-list__item">
+                                    <div class="blocks-list__item_top">
+                                        <div class="blocks-list__item_icon">
                                             <img src="img/maps/OneBlock.png" alt="">
                                         </div>
-                                        <div class="maps__item_text">
-                                            <div class="maps__item_text-wrapper">
-                                                <div class="maps__item_text-title">OneBlock</div>
-                                                <div class="maps__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
+                                        <div class="blocks-list__item_text">
+                                            <div class="blocks-list__item_text-wrapper">
+                                                <div class="blocks-list__item_text-title">OneBlock</div>
+                                                <div class="blocks-list__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
                                             </div>
-                                            <div class="maps__item_text-info">
-                                                <div class="maps__item_text-info-download">1.6M</div>
-                                                <div class="maps__item_text-info-updated">Jun 27, 2024</div>
-                                                <div class="maps__item_text-info-created">Dec 27, 2023</div>
-                                                <div class="maps__item_text-info-size">831.99 KB</div>
-                                                <div class="maps__item_text-info-version">1.20.4</div>
-                                                <div class="maps__item_text-info-loaders">Fabric</div>
+                                            <div class="blocks-list__item_text-info">
+                                                <div class="blocks-list__item_text-info-download">1.6M</div>
+                                                <div class="blocks-list__item_text-info-updated">Jun 27, 2024</div>
+                                                <div class="blocks-list__item_text-info-created">Dec 27, 2023</div>
+                                                <div class="blocks-list__item_text-info-size">831.99 KB</div>
+                                                <div class="blocks-list__item_text-info-version">1.20.4</div>
+                                                <div class="blocks-list__item_text-info-loaders">Fabric</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="maps__item_details">
-                                        <div class="maps__item_details-category">Maps</div>
-                                        <div class="maps__item_details-category-descr"><span>Magic</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Adventure and RPG</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Create</span></div>
+                                    <div class="blocks-list__item_details">
+                                        <div class="blocks-list__item_details-category">Maps</div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Magic</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Adventure and RPG</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Create</span></div>
                                     </div>
                                 </a>
-                                <a href="maps-item.html" class="maps__item">
-                                    <div class="maps__item_top">
-                                        <div class="maps__item_icon">
+                                <a href="maps-item.html" class="blocks-list__item">
+                                    <div class="blocks-list__item_top">
+                                        <div class="blocks-list__item_icon">
                                             <img src="img/maps/OneBlock.png" alt="">
                                         </div>
-                                        <div class="maps__item_text">
-                                            <div class="maps__item_text-wrapper">
-                                                <div class="maps__item_text-title">OneBlock</div>
-                                                <div class="maps__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
+                                        <div class="blocks-list__item_text">
+                                            <div class="blocks-list__item_text-wrapper">
+                                                <div class="blocks-list__item_text-title">OneBlock</div>
+                                                <div class="blocks-list__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
                                             </div>
-                                            <div class="maps__item_text-info">
-                                                <div class="maps__item_text-info-download">1.6M</div>
-                                                <div class="maps__item_text-info-updated">Jun 27, 2024</div>
-                                                <div class="maps__item_text-info-created">Dec 27, 2023</div>
-                                                <div class="maps__item_text-info-size">831.99 KB</div>
-                                                <div class="maps__item_text-info-version">1.20.4</div>
-                                                <div class="maps__item_text-info-loaders">Fabric</div>
+                                            <div class="blocks-list__item_text-info">
+                                                <div class="blocks-list__item_text-info-download">1.6M</div>
+                                                <div class="blocks-list__item_text-info-updated">Jun 27, 2024</div>
+                                                <div class="blocks-list__item_text-info-created">Dec 27, 2023</div>
+                                                <div class="blocks-list__item_text-info-size">831.99 KB</div>
+                                                <div class="blocks-list__item_text-info-version">1.20.4</div>
+                                                <div class="blocks-list__item_text-info-loaders">Fabric</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="maps__item_details">
-                                        <div class="maps__item_details-category">Maps</div>
-                                        <div class="maps__item_details-category-descr"><span>Magic</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Adventure and RPG</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Create</span></div>
+                                    <div class="blocks-list__item_details">
+                                        <div class="blocks-list__item_details-category">Maps</div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Magic</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Adventure and RPG</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Create</span></div>
                                     </div>
                                 </a>
-                                <a href="maps-item.html" class="maps__item">
-                                    <div class="maps__item_top">
-                                        <div class="maps__item_icon">
+                                <a href="maps-item.html" class="blocks-list__item">
+                                    <div class="blocks-list__item_top">
+                                        <div class="blocks-list__item_icon">
                                             <img src="img/maps/OneBlock.png" alt="">
                                         </div>
-                                        <div class="maps__item_text">
-                                            <div class="maps__item_text-wrapper">
-                                                <div class="maps__item_text-title">OneBlock</div>
-                                                <div class="maps__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
+                                        <div class="blocks-list__item_text">
+                                            <div class="blocks-list__item_text-wrapper">
+                                                <div class="blocks-list__item_text-title">OneBlock</div>
+                                                <div class="blocks-list__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
                                             </div>
-                                            <div class="maps__item_text-info">
-                                                <div class="maps__item_text-info-download">1.6M</div>
-                                                <div class="maps__item_text-info-updated">Jun 27, 2024</div>
-                                                <div class="maps__item_text-info-created">Dec 27, 2023</div>
-                                                <div class="maps__item_text-info-size">831.99 KB</div>
-                                                <div class="maps__item_text-info-version">1.20.4</div>
-                                                <div class="maps__item_text-info-loaders">Fabric</div>
+                                            <div class="blocks-list__item_text-info">
+                                                <div class="blocks-list__item_text-info-download">1.6M</div>
+                                                <div class="blocks-list__item_text-info-updated">Jun 27, 2024</div>
+                                                <div class="blocks-list__item_text-info-created">Dec 27, 2023</div>
+                                                <div class="blocks-list__item_text-info-size">831.99 KB</div>
+                                                <div class="blocks-list__item_text-info-version">1.20.4</div>
+                                                <div class="blocks-list__item_text-info-loaders">Fabric</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="maps__item_details">
-                                        <div class="maps__item_details-category">Maps</div>
-                                        <div class="maps__item_details-category-descr"><span>Magic</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Adventure and RPG</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Create</span></div>
+                                    <div class="blocks-list__item_details">
+                                        <div class="blocks-list__item_details-category">Maps</div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Magic</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Adventure and RPG</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Create</span></div>
                                     </div>
                                 </a>
-                                <a href="maps-item.html" class="maps__item">
-                                    <div class="maps__item_top">
-                                        <div class="maps__item_icon">
+                                <a href="maps-item.html" class="blocks-list__item">
+                                    <div class="blocks-list__item_top">
+                                        <div class="blocks-list__item_icon">
                                             <img src="img/maps/OneBlock.png" alt="">
                                         </div>
-                                        <div class="maps__item_text">
-                                            <div class="maps__item_text-wrapper">
-                                                <div class="maps__item_text-title">OneBlock</div>
-                                                <div class="maps__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
+                                        <div class="blocks-list__item_text">
+                                            <div class="blocks-list__item_text-wrapper">
+                                                <div class="blocks-list__item_text-title">OneBlock</div>
+                                                <div class="blocks-list__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
                                             </div>
-                                            <div class="maps__item_text-info">
-                                                <div class="maps__item_text-info-download">1.6M</div>
-                                                <div class="maps__item_text-info-updated">Jun 27, 2024</div>
-                                                <div class="maps__item_text-info-created">Dec 27, 2023</div>
-                                                <div class="maps__item_text-info-size">831.99 KB</div>
-                                                <div class="maps__item_text-info-version">1.20.4</div>
-                                                <div class="maps__item_text-info-loaders">Fabric</div>
+                                            <div class="blocks-list__item_text-info">
+                                                <div class="blocks-list__item_text-info-download">1.6M</div>
+                                                <div class="blocks-list__item_text-info-updated">Jun 27, 2024</div>
+                                                <div class="blocks-list__item_text-info-created">Dec 27, 2023</div>
+                                                <div class="blocks-list__item_text-info-size">831.99 KB</div>
+                                                <div class="blocks-list__item_text-info-version">1.20.4</div>
+                                                <div class="blocks-list__item_text-info-loaders">Fabric</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="maps__item_details">
-                                        <div class="maps__item_details-category">Maps</div>
-                                        <div class="maps__item_details-category-descr"><span>Magic</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Adventure and RPG</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Create</span></div>
+                                    <div class="blocks-list__item_details">
+                                        <div class="blocks-list__item_details-category">Maps</div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Magic</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Adventure and RPG</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Create</span></div>
                                     </div>
                                 </a>
-                                <a href="maps-item.html" class="maps__item">
-                                    <div class="maps__item_top">
-                                        <div class="maps__item_icon">
+                                <a href="maps-item.html" class="blocks-list__item">
+                                    <div class="blocks-list__item_top">
+                                        <div class="blocks-list__item_icon">
                                             <img src="img/maps/OneBlock.png" alt="">
                                         </div>
-                                        <div class="maps__item_text">
-                                            <div class="maps__item_text-wrapper">
-                                                <div class="maps__item_text-title">OneBlock</div>
-                                                <div class="maps__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
+                                        <div class="blocks-list__item_text">
+                                            <div class="blocks-list__item_text-wrapper">
+                                                <div class="blocks-list__item_text-title">OneBlock</div>
+                                                <div class="blocks-list__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
                                             </div>
-                                            <div class="maps__item_text-info">
-                                                <div class="maps__item_text-info-download">1.6M</div>
-                                                <div class="maps__item_text-info-updated">Jun 27, 2024</div>
-                                                <div class="maps__item_text-info-created">Dec 27, 2023</div>
-                                                <div class="maps__item_text-info-size">831.99 KB</div>
-                                                <div class="maps__item_text-info-version">1.20.4</div>
-                                                <div class="maps__item_text-info-loaders">Fabric</div>
+                                            <div class="blocks-list__item_text-info">
+                                                <div class="blocks-list__item_text-info-download">1.6M</div>
+                                                <div class="blocks-list__item_text-info-updated">Jun 27, 2024</div>
+                                                <div class="blocks-list__item_text-info-created">Dec 27, 2023</div>
+                                                <div class="blocks-list__item_text-info-size">831.99 KB</div>
+                                                <div class="blocks-list__item_text-info-version">1.20.4</div>
+                                                <div class="blocks-list__item_text-info-loaders">Fabric</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="maps__item_details">
-                                        <div class="maps__item_details-category">Maps</div>
-                                        <div class="maps__item_details-category-descr"><span>Magic</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Adventure and RPG</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Create</span></div>
+                                    <div class="blocks-list__item_details">
+                                        <div class="blocks-list__item_details-category">Maps</div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Magic</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Adventure and RPG</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Create</span></div>
                                     </div>
                                 </a>
-                                <a href="maps-item.html" class="maps__item">
-                                    <div class="maps__item_top">
-                                        <div class="maps__item_icon">
+                                <a href="maps-item.html" class="blocks-list__item">
+                                    <div class="blocks-list__item_top">
+                                        <div class="blocks-list__item_icon">
                                             <img src="img/maps/OneBlock.png" alt="">
                                         </div>
-                                        <div class="maps__item_text">
-                                            <div class="maps__item_text-wrapper">
-                                                <div class="maps__item_text-title">OneBlock</div>
-                                                <div class="maps__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
+                                        <div class="blocks-list__item_text">
+                                            <div class="blocks-list__item_text-wrapper">
+                                                <div class="blocks-list__item_text-title">OneBlock</div>
+                                                <div class="blocks-list__item_text-descr">Карта с интересной задумкой, старт на которой происходит всего на 1 блоке. Каждый раз, разрушая этот блок следующий появляется на этом же месте, который может быть другого типа и даже монстром.</div>
                                             </div>
-                                            <div class="maps__item_text-info">
-                                                <div class="maps__item_text-info-download">1.6M</div>
-                                                <div class="maps__item_text-info-updated">Jun 27, 2024</div>
-                                                <div class="maps__item_text-info-created">Dec 27, 2023</div>
-                                                <div class="maps__item_text-info-size">831.99 KB</div>
-                                                <div class="maps__item_text-info-version">1.20.4</div>
-                                                <div class="maps__item_text-info-loaders">Fabric</div>
+                                            <div class="blocks-list__item_text-info">
+                                                <div class="blocks-list__item_text-info-download">1.6M</div>
+                                                <div class="blocks-list__item_text-info-updated">Jun 27, 2024</div>
+                                                <div class="blocks-list__item_text-info-created">Dec 27, 2023</div>
+                                                <div class="blocks-list__item_text-info-size">831.99 KB</div>
+                                                <div class="blocks-list__item_text-info-version">1.20.4</div>
+                                                <div class="blocks-list__item_text-info-loaders">Fabric</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="maps__item_details">
-                                        <div class="maps__item_details-category">Maps</div>
-                                        <div class="maps__item_details-category-descr"><span>Magic</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Adventure and RPG</span></div>
-                                        <div class="maps__item_details-category-descr"><span>Create</span></div>
+                                    <div class="blocks-list__item_details">
+                                        <div class="blocks-list__item_details-category">Maps</div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Magic</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Adventure and RPG</span></div>
+                                        <div class="blocks-list__item_details-category-descr"><span>Create</span></div>
                                     </div>
                                 </a>
                             </div>
 
-                            <div class="maps__pagination">
-                                <a href="maps.html" class="maps__pagination_button prev disabled"></a>
-                                <div class="maps__pagination_page"><span class="maps__pagination_page-current">1</span> из <span class="maps__pagination_page-all">10</span> страниц</div>
-                                <a href="#" class="maps__pagination_button next"></a>
+                            <div class="blocks-list__pagination">
+                                <a href="#" class="blocks-list__pagination_button prev disabled"></a>
+                                <div class="blocks-list__pagination_page"><span class="blocks-list__pagination_page-current">1</span> из <span class="blocks-list__pagination_page-all">10</span> страниц</div>
+                                <a href="#" class="blocks-list__pagination_button next"></a>
                             </div>
                         </div>
                     </div>
