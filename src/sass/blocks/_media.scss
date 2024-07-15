@@ -1,0 +1,324 @@
+@media (min-width: 1040px) {
+  .content {
+    .blocks {
+      &-sidebar {
+        &__newversions {
+          &_versions {
+            &-list {
+              &-item {
+                &-size, &-downloads {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1040px) {
+  .content {
+    .adress {
+      padding: 0;
+    }
+    .blocks {
+      flex-direction: column-reverse;
+      &-category {
+        display: none;
+      }
+      &-main {
+        margin-inline: auto;
+      }
+      &-sidebar {
+        width: 720px;
+        margin-inline: auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .content {
+    .blocks {
+      &-list {
+        &__item {
+          &_text {
+            &-info {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      &-main {
+        width: 100%;
+        &__download {
+          &_versions {
+            &-filters {
+              grid-template-columns: 34px 1fr 90px 56px 74px 54px;
+            }
+            &-filter {
+              &#size, &#downloads {
+                display: none;
+              }
+            }
+            &-list {
+              &-item {
+                grid-template-columns: 34px 1fr 90px 56px 74px 54px;
+              }
+              &-size, &-downloads {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+      &-sidebar {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .content {
+    padding-top: 20px;
+    .top {
+      &-column {
+        gap: 5px;
+      }
+    }
+    .title {
+      &-h1 {
+        font-size: 24px;
+      }
+      &-sub {
+        font-size: 14px;
+      }
+    }
+    .blocks {
+      &-list {
+        gap: 20px;
+        &__item {
+          &_text {
+            &-info {
+              &-updated, &-created, &-size {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    &__logo {
+      width: 200px;
+    }
+    &__menu, &__search, &__avatar {
+      display: none;
+    }
+    &__hamburger {
+      display: block;
+    }
+  }
+
+  .content {
+    .catalog {
+      &__items {
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+      &__item {
+        &_name {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .adress {
+      &.item {
+        padding-bottom: 20px;
+      }
+    }
+
+    .title {
+      font-size: 20px;
+    }
+
+    .view-all {
+      font-size: 14px;
+    }
+
+    .blocks {
+      &-main, &-sidebar {
+        &__descr, &__install, &__download {
+          &_title {
+            font-size: 20px;
+            padding-inline: 20px 75px;
+            height: 70px;
+            &.hidden {
+              font-size: 20px;
+            }
+          }
+          &_text {
+            margin-inline: 20px;
+          }
+          &_list {
+            margin-inline: 40px;
+          }
+        }
+        &__morefiles, &__newversions {
+          padding: 10px;
+          &_title {
+            font-size: 20px;
+            padding-inline: 10px 75px;
+            &.hidden {
+              font-size: 20px;
+            }
+          }
+          &_text {
+            margin-inline: 20px;
+          }
+          &_list {
+            margin-inline: 40px;
+          }
+          &_versions {
+            padding-top: 10px;
+          }
+        }
+        &__pictures {
+          height: 300px;
+        }
+        &__download {
+          &_versions {
+            &-filters {
+              display: none;
+            }
+            hr {
+              display: none;
+            }
+            &-list {
+              gap: 5px;
+              &-item {
+                grid-template-columns: auto 1fr auto auto auto auto;
+                gap: 5px;
+                background-color: var(--white);
+                border-radius: 6px;
+              }
+              &-type, &-version, &-loader, &-download {
+                margin-inline: 2px;
+              }
+            }
+          }
+        }
+        &__pagination {
+          padding-inline: 20px;
+        }
+      }
+      &-row {
+        &__item {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+
+
+  .footer {
+    &__name, &__mail {
+      font-size: 12px;
+    }
+    &__links {
+      display: none;
+    }
+  }
+
+
+
+  .swiper {
+    &-button {
+      &-prev, &-next {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    .blocks {
+      &-main, &-sidebar {
+        &__download {
+          &_versions {
+            &-list {
+              &-item {
+                grid-template-columns: auto 1fr auto auto auto;
+              }
+              &-loaded {
+                display: none;
+              }
+            }
+          }
+        }
+        &__newversions, &__morefiles {
+          &_versions {
+            &-list {
+              &-item {
+                &-size, &-downloads {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+        &__files {
+          &_descr {
+            &-updated, &-loaded {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .content {
+    .title {
+      font-size: 18px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 200px;
+    }
+    .view-all {
+      font-size: 12px;
+    }
+    .blocks {
+      &-main {
+        &__download {
+          &_title {
+            &.mini {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

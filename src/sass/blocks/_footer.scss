@@ -1,0 +1,32 @@
+.footer {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  &__wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__name, &__mail {
+    color: var(--lightGray) !important;
+    display: flex;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+  }
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-inline: 10px;
+  }
+  &__link {
+    height: 40px;
+    width: 40px;
+    &_icon {
+      height: 100%;
+      width: 100%;
+      fill: var(--black);
+    }
+  }
+}

@@ -1,0 +1,16 @@
+body {
+  background-color: var(--white);
+}
+
+main {
+  max-width: 1160px;
+  margin-inline: auto;
+}
+
+.container{
+  max-width: 1160px;
+  margin-inline: 15px;
+  @media (min-width: 1175px) {
+    margin-inline: auto;
+  }
+}
