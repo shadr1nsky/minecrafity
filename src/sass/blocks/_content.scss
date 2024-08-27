@@ -349,7 +349,6 @@
         width: 100%;
         border-radius: 12px;
         background-color: var(--grayBg);
-        border: 1px solid var(--whiteGray);
         &_title, .hidden {
           display: flex;
           cursor: pointer;
@@ -429,7 +428,6 @@
         &_wrapper {
           margin-top: 15px;
           background-color: var(--grayBg);
-          border: 1px solid var(--whiteGray);
           border-radius: 12px;
           padding: 15px;
         }
@@ -520,7 +518,6 @@
         display: flex;
         flex-direction: column;
         background-color: var(--grayBg);
-        border: 1px solid var(--whiteGray);
         border-radius: 12px;
         padding: 20px;
         &_title {
@@ -612,7 +609,6 @@
         width: 100%;
         border-radius: 12px;
         background-color: var(--grayBg);
-        border: 1px solid var(--whiteGray);
         &_title {
           display: flex;
           cursor: pointer;
@@ -658,7 +654,6 @@
         width: 100%;
         border-radius: 12px;
         background-color: var(--grayBg);
-        border: 1px solid var(--whiteGray);
         padding-bottom: 20px;
         &_title {
           display: flex;
@@ -877,7 +872,6 @@
         width: 100%;
         background-color: var(--grayBg);
         border-radius: 12px;
-        border: 1px solid var(--whiteGray);
         overflow: hidden;
         position: relative;
         padding-bottom: 20px;
@@ -900,7 +894,6 @@
         top: 140px;
         right: 40px;
         border-radius: 12px;
-        border: 1px solid var(--lightGray);
         background-image: url('../img/blur.jpg');
         background-size: cover;
         overflow: hidden;
@@ -1011,7 +1004,6 @@
         display: flex;
         flex-direction: column;
         background-color: var(--grayBg);
-        border: 1px solid var(--whiteGray);
         border-radius: 12px;
         padding: 20px;
         &_title {
