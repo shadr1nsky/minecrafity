@@ -332,6 +332,7 @@
         border-radius: 12px;
         overflow: hidden;
         height: 410px;
+        background-color: var(--grayBg);
         &:before, &:after {
           display: none;
         }
@@ -341,7 +342,7 @@
           justify-content: center;
           img {
             object-fit: cover;
-            width: 100%;
+            max-width: 100%;
           }
         }
       }
