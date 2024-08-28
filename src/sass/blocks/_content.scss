@@ -244,10 +244,12 @@
         }
         &_details {
           display: flex;
-          align-items: center;
-          gap: 8px;
+          align-items: end;
+          column-gap: 8px;
+          row-gap: 3px;
           border-top: 1px solid var(--white);
           padding: 6px 16px 6px 16px;
+          flex-wrap: wrap;
           &-category {
             display: inline-block;
             font-size: 13px;
@@ -270,14 +272,15 @@
                 color: var(--black);
                 border-bottom: 1px solid var(--gray);
               }
-              &:nth-child(2) {
-                &:before {
-                  content: '';
-                }
-              }
-              &:before {
+              &:after {
                 content: '|';
-                margin-right: 8px;
+                margin-left: 8px;
+              }
+              &:last-child {
+                &:after {
+                  content: '';
+                  margin-left: 0;
+                }
               }
             }
           }
