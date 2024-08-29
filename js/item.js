@@ -17,9 +17,6 @@ const swiper = new Swiper('.swiper', {
 
 });
 
-document.querySelector('.blocks-main__descr_title').addEventListener('click', function() {
-    this.classList.toggle('hidden');
-});
 document.querySelector('.blocks-main__install_title').addEventListener('click', function() {
     this.classList.toggle('hidden');
 });
