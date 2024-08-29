@@ -79,19 +79,23 @@
         }
         &_details {
           margin-top: auto;
-          padding-left: 24px;
+          padding-left: 20px;
           display: flex;
           flex-direction: row;
           justify-content: space-between;
           align-items: center;
-          gap: 10px;
+          gap: 3px;
           background: no-repeat url("../icons/download.svg") left;
           background-size: contain;
           &-download {
+            overflow: hidden;
+            text-overflow: ellipsis;
             font-size: 14px;
             position: relative;
+            max-width: 40px;
           }
           &-category {
+            white-space: nowrap;
             display: inline-block;
             font-size: 13px;
             padding-inline: 4px;
@@ -99,6 +103,7 @@
             border: 1px solid var(--lightGray);
             overflow: hidden;
             text-overflow: ellipsis;
+            max-width: 80px;
             &:hover {
               border: 1px solid var(--gray);
             }
