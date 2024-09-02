@@ -79,21 +79,10 @@
         }
         &_details {
           margin-top: auto;
-          padding-left: 20px;
           display: flex;
           flex-direction: row;
-          justify-content: space-between;
           align-items: center;
-          gap: 3px;
-          background: no-repeat url("../icons/download.svg") left;
-          background-size: contain;
-          &-download {
-            overflow: hidden;
-            text-overflow: ellipsis;
-            font-size: 14px;
-            position: relative;
-            max-width: 40px;
-          }
+          gap: 5px;
           &-category {
             white-space: nowrap;
             display: inline-block;
